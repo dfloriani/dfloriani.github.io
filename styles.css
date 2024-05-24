@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.jumbotron {
+    background-image: url(./images/sky.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron h1 {
+    font-size: 63px;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.text-center {
+    color: #f2f2f2;
+}
+
+hr {
+    width: 4%;
+    border: dotted blueviolet 6px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.about-me p {
+    width: 30%;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  
+  .about-me h2{
+    color:blueviolet;
+  }
+
+.container.about-me img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 60px 0;
+  }
+  
+  .contact p {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .contact h3 {
+    color:blueviolet;
+  }
+  
+  .contact h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer {
+    background-image: url(./images/sky.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+ul {
+    gap: 10px;
+}
+
+.topbar {
+    gap: 15px;
+    margin-left: 15px;
+}
