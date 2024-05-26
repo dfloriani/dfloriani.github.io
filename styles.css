@@ -40,7 +40,7 @@ body {
     color: #f2f2f2;
 }
 
-hr {
+hr.initial {
     width: 10%;
     border: dotted #84579b 6px;
     border-bottom: none;
@@ -64,7 +64,7 @@ hr {
 .about-me p {
     width: 30%;
     margin: 0;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
 
 .container.about-me img {
@@ -76,7 +76,8 @@ hr {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 40px 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
@@ -142,4 +143,18 @@ ul {
   .contact p, .about-me p {
     width: 70%;
   }
+ }
+
+ .intro {
+  padding-top: 3rem;
+ }
+
+ .intro h2 {
+  padding: 1rem;
+  margin-top: 10px
+ }
+ 
+ .intro p {
+  text-align: center;
+  padding-top: 2rem;
  }
