@@ -158,3 +158,18 @@ ul {
   text-align: center;
   padding-top: 2rem;
  }
+
+ .projects {
+  padding: 5rem;
+  display: grid;
+  gap: 2rem;
+ }
+
+ .projects a {
+  color: #352F44;
+ }
+
+ .projects a:visited {
+  color: #84579b;
+ }
+ 
