@@ -129,6 +129,18 @@ ul {
     width: 70%;
   }
  }
- 
- 
+
+ .container.links {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  text-align: start;
+ }
+
+ .container.links h2 {
+  width: 100%;
+  text-align: start;
+ }
+
+
  
