@@ -1,0 +1,35 @@
+<%- include("partials/header.ejs") %>
+    
+    <div class="container about-me border rounded" id="about-me">
+        <img src="./images/DSC_0057 copy.jpeg" alt="dayane">
+        <h2>Hello there!</h2> 
+        <p>I am a QA and Web Developer. I ❤️ coffee, Star Wars, LOTR, Marvel and DC, anime.
+        </p>
+    </div>
+
+    <div class="background">
+    <div class="container projects border rounded" id="projects">
+      <h2>Projects</h2>
+      <div class="d-grid gap-4 col-12 mx-auto">
+        <button class="btn btn-dark btn-lg" type="button" id="htmlcss"
+        >HTML & CSS</button>
+        <button class="btn btn-dark btn-lg" type="button">Bootstrap</button>
+        <button class="btn btn-dark btn-lg" type="button">other stuff</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="container contact border rounded" id="contact">
+        <h2>Get in Touch</h2>
+        <h3>If you love studying like I do.</h3>
+        <p>Like studying as much as I do? Let us talk about how awesome learning new things is, specially if they involve coding!</p>
+        <a href="mailto:example@gmail.com">
+            <button class="btn btn-dark btn-lg" type="button">Contact Me</button>
+        </a>
+    </div>
+
+    <script>document.getElementById("htmlcss").onclick = function () {
+      location.href = "https://dfloriani.github.io/htmlandcss.html"
+  };</script>
+
+  <%- include("partials/footer.ejs") %>
