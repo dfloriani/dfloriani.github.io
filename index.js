@@ -5,3 +5,7 @@ document.getElementById("htmlcss").onclick = function () {
 document.getElementById("bootstrap").onclick = function () {
     location.href = "https://dfloriani.github.io/bootstrap.html"
 };
+
+document.getElementById("node").onclick = function () {
+    location.href = "https://dfloriani.github.io/node.html"
+};
