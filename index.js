@@ -9,3 +9,7 @@ document.getElementById("bootstrap").onclick = function () {
 document.getElementById("node").onclick = function () {
     location.href = "https://dfloriani.github.io/node.html"
 };
+
+document.getElementById("react").onclick = function () {
+    location.href = "https://dfloriani.github.io/react.html"
+};
